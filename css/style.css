@@ -1,0 +1,108 @@
+:root{
+    --cor1 : #6A0000;
+    --cor2 : #FFFFFF;
+    --cor3 : #FFF7EC;
+    --fonte : montserrat;
+}
+
+body{
+    background-color: var(--cor1);
+    font-family: montserrat;
+    color: var(--cor2);
+}
+
+nav{
+    border-bottom: solid 1px var(--cor2);
+    background-color: var(--cor1);
+}
+
+.dropdown-menu{
+    background-color: #b4463e;
+    border: none;
+}
+
+.dropdown-item{
+    color: var(--cor2);
+}
+
+.menu{
+    background-color: #db7068;
+}
+
+.b{
+    margin: 10vh 0px;
+    padding: 12px 2vw;
+    border-radius: 50px;
+    background-color: var(--cor3);
+    color: var(--cor1);
+}
+
+.card-1{
+    background-color: #831313;
+    color: var(--cor2);
+    border-radius: 15px;
+    border: none;
+    box-shadow: 15px -15px 0px #993535;
+    padding: 2vh 4vh;
+    max-width: 100%;
+}
+
+.title-2{
+    padding: 5vh 0px;
+}
+
+.graduacao{
+    background-color: #760D0D;
+    padding: 12px 1vw;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 400;
+}
+
+.btn-card{
+    background-color: var(--cor2);
+    border-radius: 50%;
+    padding: 3px;
+    margin-top: 3vw;
+}
+
+p{
+    font-size: 2.5vh;
+    line-height: 32px;
+    padding-bottom: 10vh;
+}
+
+.b2{
+    position: relative;
+    left: 5vw;
+}
+
+.e{
+    margin: 0 auto 5vh;
+    padding: 12px 2vw;
+    border-radius: 50px;
+    border: 1.5px solid var(--cor1);
+    max-width: 70%;
+}
+
+.card-2{
+    margin: 0 auto 5vh;
+    box-shadow: 10px 12px 0px #4b0000;
+    border: none;
+    border-radius: 20px;
+    color: var(--cor2);
+    background-color: #590000;
+    height: 53vh;
+}
+
+.texto-footer{
+    max-width: 22vw;
+    margin: 4vh 0 10vh;
+}
+
+#link-f{
+    color: var(--cor2);
+    text-decoration: none;
+    margin: 1vw;
+}
